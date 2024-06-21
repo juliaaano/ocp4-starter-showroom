@@ -1,0 +1,8 @@
+# OCP4 Getting Started Worskhop
+
+Welcome to the OCP4 Getting Started Worskhop...
+
+1. xref:dotnet:index.adoc[Getting Started with OpenShift - .NET C# edition]
+2. xref:java:index.adoc[Getting Started with OpenShift - Java edition]
+3. xref:nodejs:index.adoc[Getting Started with OpenShift - Node.js edition]
+4. xref:python:index.adoc[Getting Started with OpenShift - Python edition]

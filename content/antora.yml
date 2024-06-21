@@ -1,13 +1,16 @@
 name: modules
-title: Default Title
-version: master
+title: OCP4 Getting Started Workshop
+version: main
+start_page: common:index.adoc
 nav:
-  - modules/ROOT/nav.adoc
+  - modules/dotnet/nav.adoc
+  - modules/java/nav.adoc
+  - modules/nodejs/nav.adoc
+  - modules/python/nav.adoc
 
 asciidoc:
   attributes:
     lab_name: "I'm the lab_name var"
-    release-version: master
     page-pagination: true
     my_var: "foo"
     guid: my-guid
