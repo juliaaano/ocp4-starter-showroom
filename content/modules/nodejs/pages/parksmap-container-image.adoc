@@ -1,0 +1,1 @@
+include::common:parksmap-container-image.adoc[]

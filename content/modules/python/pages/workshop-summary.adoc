@@ -1,0 +1,1 @@
+include::common:common-workshop-summary.adoc[]

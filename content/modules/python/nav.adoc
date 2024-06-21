@@ -1,2 +1,12 @@
 .Starter Labs (Python)
 * xref:index.adoc[Welcome]
+* xref:workshop-summary.adoc[Workshop Summary]
+* xref:environment.adoc[Environment Overview]
+* xref:parksmap-architecture.adoc[Architecture Overview of the ParksMap Application]
+* xref:explore.adoc[Exploring the CLI and Web Console]
+* xref:parksmap-container-image.adoc[Deploying Your First Container Image]
+* xref:parksmap-scaling.adoc[Scaling and Self-Healing]
+* xref:parksmap-routes.adoc[Exposing Your Application to the Outside World]
+* xref:parksmap-logging.adoc[Exploring OpenShift's Logging Capabilities]
+* xref:parksmap-permissions.adoc[Role-Based Access Control]
+* xref:parksmap-rsh.adoc[Remote Access to Your Application]
