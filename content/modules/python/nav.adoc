@@ -10,3 +10,4 @@
 * xref:parksmap-logging.adoc[]
 * xref:parksmap-permissions.adoc[]
 * xref:parksmap-rsh.adoc[]
+* xref:nationalparks-python.adoc[]
