@@ -1,1 +1,3 @@
+= Scaling and Self-Healing
+
 include::common:parksmap-scaling.adoc[]

@@ -1,3 +1,0 @@
-# OCP4 Getting Started Worskhop
-
-Welcome to the Getting Started with OpenShift - .NET C# edition...

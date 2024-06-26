@@ -1,1 +1,3 @@
+= Exploring OpenShift's Logging Capabilities
+
 include::common:parksmap-logging.adoc[]

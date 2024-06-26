@@ -1,1 +1,3 @@
+= Workshop Summary
+
 include::common:common-workshop-summary.adoc[]
