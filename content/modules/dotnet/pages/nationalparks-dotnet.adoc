@@ -87,7 +87,7 @@ have your own git repository, let's use it with a simple .NET S2I image.
 
 In the Developer Perspective, click *+Add* in the left navigation and then choose *From Git*
 
-image::images/nationalparks-show-add-options.png[Add to Project]
+image::nationalparks-show-add-options.png[Add to Project]
 
 The *Import from Git* workflow will guide you through the process of deploying your app based on a few selections.
 
@@ -104,7 +104,7 @@ NOTE: if you copied the Gogs URL correctly (check spaces etc) and you still get 
 
 Select *.NET Core* as your Builder Image and then select version *3.0-ubi8*.
 
-image::images/nationalparks-import-from-git-url-builder-dotnet.png[Import from Git]
+image::nationalparks-import-from-git-url-builder-dotnet.png[Import from Git]
 
 NOTE: All of these builder images shown are made available via *Templates* and
 *ImageStreams*, which will be discussed in a later lab.
@@ -146,7 +146,7 @@ role=backend
 
 Now click the *Create* button.
 
-image::images/nationalparks-configure-service-pipelines.png[Runtimes]
+image::nationalparks-configure-service-pipelines.png[Runtimes]
 
 At this point, OpenShift will build the app and create a container through the Pipeline we just added.
 
@@ -154,11 +154,11 @@ TIP: We will discuss more in details about OpenShift Pipelines in the *Continuou
 
 To see the build logs, in the Topology view, click the `nationalparks` entry. Inside *Resources* tab, go to *PipelineRuns* section and click to *View Logs* link next to running pipeline.
 
-image::images/nationalparks-dotnet-new-dotnet-build.png[Nationalparks build]
+image::nationalparks-dotnet-new-dotnet-build.png[Nationalparks build]
 
 Your newly created pipeline is running to build the backend from he source code and push the resulting  container image to the OpenShift Registry.
 
-image::images/nationalparks-javascript-new-nodejs-build.png[Nationalparks build log]
+image::nationalparks-javascript-new-nodejs-build.png[Nationalparks build log]
 
 The initial build will take a few minutes to download all of the dependencies needed for
 the application.
