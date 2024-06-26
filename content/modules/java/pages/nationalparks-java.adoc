@@ -7,7 +7,7 @@ coordinates) that is stored in a MongoDB database.  This application will also
 provide an external access point, so that the API provided can be directly used
 by the end user.
 
-image::images/roadshow-app-architecture-nationalparks-1.png[Application architecture,800,align="center"]
+image::roadshow-app-architecture-nationalparks-1.png[Application architecture,800,align="center"]
 
 == Background: Source-to-Image (S2I)
 
@@ -87,7 +87,7 @@ have your own git repository, let's use it with a simple Java S2I image.
 
 In the Developer Perspective, click *+Add* in the left navigation, go to the *Git Repository* section and then choose *From Git* option.
 
-image::images/nationalparks-show-add-options.png[Add to Project]
+image::nationalparks-show-add-options.png[Add to Project]
 
 The *Import from Git* workflow will guide you through the process of deploying your app based on a few selections.
 
@@ -104,7 +104,7 @@ NOTE: if you copied the Gogs URL correctly (check spaces etc) and you still get 
 
 Select *Java* as your Builder Image, and be sure to select version *openjdk-11-ubi8* to have OpenJDK 11.
 
-image::images/nationalparks-import-from-git-url-builder.png[Import from Git]
+image::nationalparks-import-from-git-url-builder.png[Import from Git]
 
 NOTE: All of these runtimes shown are also made available via *Templates* and
 *ImageStreams*, which will be discussed in a later lab.
@@ -140,13 +140,13 @@ And finally, the role this component plays in the overall application.
 role=backend
 ----
 
-image::images/nationalparks-configure-service.png[Runtimes]
+image::nationalparks-configure-service.png[Runtimes]
 
 Click *Create* to submit.
 
 To see the build logs, in Topology view, click the `nationalparks` entry, then click on *View Logs* in the *Builds* section of the *Resources* tab.
 
-image::images/nationalparks-java-new-java-build.png[Nationalparks build]
+image::nationalparks-java-new-java-build.png[Nationalparks build]
 
 
 This is a Java-based application that uses Maven as the build and dependency system.  For this reason, the initial build
