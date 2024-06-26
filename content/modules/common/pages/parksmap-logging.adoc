@@ -27,11 +27,11 @@ various log information to various files, fear not.
 Since we already deployed our application, we can take some time to examine its
 logs. In the Developer Perspective, from Topology view, click the `parksmap` entry and then the *Resources* tab. You should see a *View Logs* link next to the *Pod* entry.
 
-image::images/parksmap-view-logs-link.png[View Logs for Pod]
+image::common:parksmap-view-logs-link.png[View Logs for Pod]
 
 Click the *View Logs* link and you should see a nice view of the *Pod*'s logs:
 
-image::images/parksmap-logging-console-logs.png[Application Logs]
+image::common:parksmap-logging-console-logs.png[Application Logs]
 
 WARNING: If you notice some errors in the log, that's okay. We'll remedy those in a little bit.
 

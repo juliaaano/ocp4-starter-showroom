@@ -1,6 +1,6 @@
 In this lab, we're going to make our application visible to the end users, so they can access it.
 
-image::images/roadshow-app-architecture-parksmap-2.png[Application architecture,800,align="center"]
+image::common:roadshow-app-architecture-parksmap-2.png[Application architecture,800,align="center"]
 
 == Background: Routes
 
@@ -33,9 +33,9 @@ In *Security* section, check *Secure route*. Select *Edge* from *TLS Termination
 
 Leave all other fields blank and click *Create*:
 
-image::images/parksmap-route-create-1.png[Create Route1,align="center"]
+image::common:parksmap-route-create-1.png[Create Route1,align="center"]
 
-image::images/parksmap-route-create-2.png[Create Route2,align="center"]
+image::common:parksmap-route-create-2.png[Create Route2,align="center"]
 
 
 When creating a *Route*, some other options can be provided, like the hostname and path for the *Route* or the other TLS configurations.
@@ -94,11 +94,11 @@ parksmap   parksmap-{{project_namespace}}.{{cluster_subdomain}}             park
 
 You can also verify the *Route* in the *Developer Perspective* under the *Resources* tab for your `parksmap` deployment configuration. Also note that there is a decorator icon on the `parksmap` visualization now. If you click that, it will open the URL for your *Route* in a browser.
 
-image::images/parksmap-route-created.png[Route created]
+image::common:parksmap-route-created.png[Route created]
 
 This application is now available at the URL shown in the Developer Perspective. Click the link and you will see it.
 
 NOTE: At first time, the Browser will ask permission to get your position. This is needed by the Frontend app to center the world map to your location, if you don't allow it, it will just use a default location.
 
-image::images/parksmap-route-empty-map.png[Empty map]
+image::common:parksmap-route-empty-map.png[Empty map]
 

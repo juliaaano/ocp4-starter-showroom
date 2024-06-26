@@ -13,11 +13,11 @@ account, we can do interesting things.
 
 You can view current permissions in the web console, go to the Topology view in the Developer Perspective, click the `parksmap` entry, go to the *Details* tab, and then click the *Namespace*. 
 
-image::images/parksmap-permissions-namespace.png[Namespace]
+image::common:parksmap-permissions-namespace.png[Namespace]
 
 Then, click *Role Bindings*.
 
-image::images/parksmap-permissions-membership.png[Membership]
+image::common:parksmap-permissions-membership.png[Membership]
 
 == Exercise: Grant Service Account View Permissions
 The parksmap application wants to talk to the OpenShift API to learn about other
@@ -58,15 +58,15 @@ Now that the `default` *Service Account* now has **view** access, so now it can 
 Another way you could have done the same is by using the OpenShift console. Once you're on the 
 *Workloads -> Deployments* page, click on the *Namespace*, then *Role Bindings* and then the *Create Binding* button.
 
-image::images/parksmap-permissions-membership-serviceaccount-list.png[Service account list]
+image::common:parksmap-permissions-membership-serviceaccount-list.png[Service account list]
 
 Select *view* for the Role Binding Name *{{ project_namespace }}* for the Namespace, *view* for the Role Name, *Service Account* for the Subject, *{{ project_namespace }}* for the Subject Namespace, and *default* for the Subject Name.
 
-image::images/parksmap-permissions-membership-serviceaccount-edit.png[Service account edit]
+image::common:parksmap-permissions-membership-serviceaccount-edit.png[Service account edit]
 
 Once you're finished editing permissions, click on the *Create* button.
 
-image::images/parksmap-permissions-membership-serviceaccount-done.png[Service account changed]
+image::common:parksmap-permissions-membership-serviceaccount-done.png[Service account changed]
 
 == Exercise: Redeploy Application
 One more step is required. We need to re-deploy the `parksmap` application because it's
@@ -79,7 +79,7 @@ oc rollout restart deployment/parksmap
 
 A new deployment is immediately started. Return to Topology view and click the `parksmap` entry again to watch it happen. You might not be fast enough! But it will be reflected in the *ReplicaSet* number.
 
-image::images/parksmap-permissions-redeployed.png[Application deployed]
+image::common:parksmap-permissions-redeployed.png[Application deployed]
 
 If you look at the logs for the application now, you should see no errors.  That's great.
 

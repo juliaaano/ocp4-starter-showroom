@@ -77,11 +77,11 @@ oc scale --replicas=2 deployment/parksmap
 
 You can also scale up to two pods in the *Developer Perspective*. From the Topology view, first click the `parksmap` deployment config and select the *Details* tab:
 
-image::images/parksmap-details.png[Details]
+image::common:parksmap-details.png[Details]
 
 Next, click the *^* icon next to the Pod visualization to scale up to 2 pods.
 
-image::images/parksmap-scaleup.png[Scaling up]
+image::common:parksmap-scaleup.png[Scaling up]
 
 To verify that we changed the number of replicas, issue the following command:
 
@@ -164,7 +164,7 @@ many pods are behind a service.
 
 You can also see that both *Pods* are running in the Developer Perspective:
 
-image::images/parksmap-scaled.png[Scaled]
+image::common:parksmap-scaled.png[Scaled]
 
 Overall, that's how simple it is to scale an application (*Pods* in a
 *Service*). Application scaling can happen extremely quickly because OpenShift

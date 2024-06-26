@@ -1,8 +1,6 @@
-== Command Line Interface
-
 OpenShift includes a feature-rich web console with both an Administrator perspective and a Developer perspective. In addition to the web console, OpenShift includes command line tools
 to provide users with a nice interface to work with applications deployed to the
-platform.  The `oc` command line tool is an executable written in the Go
+platform. The `oc` command line tool is an executable written in the Go
 programming language and is available for the following operating systems:
 
 - Microsoft Windows
@@ -57,21 +55,21 @@ Password: `openshift`
 
 The first time you access the web console, you will most likely be in the Administrator perspective. You will be presented with the list of Projects that you can access, and you will see something that looks like the following image:
 
-image::images/explore-webconsole1sc.png[Web Console]
+image::common:explore-webconsole1sc.png[Web Console]
 
 Click on the *{{ project_namespace  }}* project link. When you click on the
 *{{ project_namespace  }}* project, you will be taken to the project details page,
 which will list some metrics and details about your project. There's nothing there now, but that will change as you progress through the lab.
 
-image::images/explore-webconsole2.png[Explore Project]
+image::common:explore-webconsole2.png[Explore Project]
 
 At the top of the left navigation menu, you can toggle between the Administrator perspective and the Developer perspective.
 
-image::images/explore-perspective-toggle.png[Toggle Between Perspectives]
+image::common:explore-perspective-toggle.png[Toggle Between Perspectives]
 
 Select *Developer* to switch to the Developer perspective. Once the Developer perspective loads, you should be in the *Topology* view. Right now, there are no applications or components to view, but once you begin working on the lab, you'll be able to visualize and interact with the components in your application here.
 
-image::images/explore-add-application.png[Add New Applications]
+image::common:explore-add-application.png[Add New Applications]
 
 
 We will be using a mix of command line tooling and the web console for the labs.
